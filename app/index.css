@@ -474,6 +474,21 @@
   .gap-40 {
     gap: calc(var(--spacing) * 40);
   }
+  body.dark {
+  background-color: black; 
+  color: #f7fafc;  
+}
+
+
+.dark .text-black {
+  color: #ffffff;  
+}
+
+.dark .bg-white {
+  background-color: #2d3748;  
+}
+
+
   .space-y-1 {
     :where(& > :not(:last-child)) {
       --tw-space-y-reverse: 0;

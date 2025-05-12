@@ -14,11 +14,15 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
     <link href="./index.css" rel="stylesheet">
 
 </head>
-<body >
-    <header class="mb-3">
+<body  class=" dark:bg-gray-900 dark:text-white">
+
+
+
+    <header class="mb-3  ">
         <div>
           <div class="bg-gray-300 text-white">
             <p class="mb-3 ml-10 md:ml-20 lg:ml-40 font-medium text-xs  p-1">
@@ -39,6 +43,12 @@
                     <a href="#" class="rounded-md px-3 py-2 text-md font-normal">news</a>
                     <a href="#" class="rounded-md px-3 py-2 text-md font-normal">about</a>
                     <a href="#" class="rounded-md px-3 py-2 text-md font-normal">theme</a>
+                    <button id="dark-mode-toggle" class="p-2 text-black dark:bg-gray-700 dark:text-white rounded">
+ Dark Mode
+</button>
+
+
+
                     
                   </div>
                 </div>
@@ -143,8 +153,8 @@
               </div>
           
               
-              <div class="col-span-2 below400:block flex items-start gap-4">
-                <div class="flex-1 ">
+              <div class="col-span-2 below400:block flex items-start gap-4  ">
+                <div class="flex-1  ">
                   <a href="#" class="text-[#6937F5] ">Heavy rain in New Orleans</a>
                   <p class="text-sm text-black mt-1">
                    Lorem ipsum dolor sit amet consectetur. Amet tortor tempor feugiat elementum. Faucibus faucibus tempor habitasse amet auctor. Sit lorem a cursus a. Donec vitae massa et lectus dolor in.
@@ -201,9 +211,10 @@
   </div>
 
     </main>
+        <script src="./scripts/darkmode.js"></script>
 </body>
 
       
     
-</body>
+
 </html>

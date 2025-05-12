@@ -1,10 +1,16 @@
+
 module.exports = {
-  content: ['./app/**/*.html', './app/**/*.js', './app/**/*.jsx', './app/**/*.tsx'],
+  darkMode: 'class', 
+  content: [
+    './app/index.html',  
+    './app/**/*.js',  
+    './app/**/*.html', 
+    './app/**/*.jsx',  
+    './app/**/*.tsx',  
+  ],
   theme: {
     extend: {
-      screens: {
-        'below400': { max: '399px' },
-      },
+
     },
   },
   plugins: [],
